@@ -1,0 +1,12 @@
+.CardPopUp {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 30%;
+    top: 10%;
+
+    & h2 {
+        position: absolute;
+        bottom: 20%;
+    }
+}

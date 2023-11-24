@@ -1,0 +1,18 @@
+// Template Base
+@import "@/Assets/Style/Template/Template.scss";
+
+// Layouts
+@import "@/Assets/Style/Layout/Main.scss";
+@import "@/Assets/Style/Layout/Header.scss";
+@import "@/Assets/Style/Layout/Footer.scss";
+
+// Components
+@import "@/Assets/Style/Components/Card.scss";
+@import "@/Assets/Style/Components/CardPopUp.scss";
+@import "@/Assets/Style/Components/Banner.scss";
+@import "@/Assets/Style/Components/BannerDefilante.scss";
+@import "@/Assets/Style/Components/BannerContact.scss";
+@import "@/Assets/Style/Components/Form.scss";
+// Pages
+@import "@/Assets/Style/Pages/Contact.scss";
+@import "@/Assets/Style/Pages/Home.scss";

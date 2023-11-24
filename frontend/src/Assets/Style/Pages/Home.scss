@@ -1,0 +1,52 @@
+.sectionHome {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1/3;
+
+    & .BannerDefilante {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    & .Banner {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    & .listePrestation {
+        grid-column: 1/3;
+        background-color: $color-backgroundHome;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px 30px;
+        padding: 40px 40px;
+        margin-top: 0px;
+        height: 100%;
+        border-radius: 25px;
+    }
+
+    @media only screen and (max-width : 1024px) {
+        & .listePrestation {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @media only screen and (max-width : 740px) {
+        grid-template-columns: 100%;
+        grid-template-rows: 1/4;
+
+        & .BannerDefilante {
+            grid-row: 2/3;
+
+        }
+
+        & .Banner {
+            grid-column: 1;
+            grid-row: 1/2;
+        }
+
+        & .listePrestation {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+}

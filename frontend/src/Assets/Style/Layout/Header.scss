@@ -1,0 +1,27 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+
+    & .logo {
+        width: 20%;
+    }
+
+    & .logoTitre {
+        color: $color-primary;
+        font-size: 1.5em;
+    }
+
+    & .navlink {
+        color: $color-primary;
+        margin-left: 20px;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    & .navlink:hover {
+        color: $color-hoover
+    }
+}

@@ -1,0 +1,44 @@
+[
+    {
+        "id": "c67ab8a7",
+        "title": "Mariage",
+        "cover": "mariage.jpg",
+        "pictures": [],
+        "description": "à partir de 1000€"
+    },
+    {
+        "id": "b9123946",
+        "title": "Grossesse",
+        "cover": "grossesse.png",
+        "pictures": [],
+        "description": "à partir de 200€"
+    },
+    {
+        "id": "46d188c5",
+        "title": "Concert",
+        "cover": "concert.jpg",
+        "pictures": [],
+        "description": "à partir de 200€"
+    },
+    {
+        "id": "7af00cd6",
+        "title": "Voyage",
+        "cover": "voyage.jpg",
+        "pictures": [],
+        "description": "à partir de 25€"
+    },
+    {
+        "id": "0979876d",
+        "title": "Fête de village",
+        "cover": "fete.jpg",
+        "pictures": [],
+        "description": "à partir de 200€"
+    },
+    {
+        "id": "0956176p",
+        "title": "Naissance",
+        "cover": "naissance.jpg",
+        "pictures": [],
+        "description": "à partir de 300€"
+    }
+]

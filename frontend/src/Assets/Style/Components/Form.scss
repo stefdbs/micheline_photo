@@ -1,0 +1,50 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+    height: 100%;
+    width: 65%;
+
+    & .form__question input,
+    textarea,
+    select,
+    option {
+        font-family: Georgia;
+        font-size: 15px;
+        text-align: center;
+        color: $color-primary ;
+        margin-left: 10px;
+        border-radius: 10px;
+        height: 26px;
+        margin-top: 6px;
+        align-items: center;
+
+    }
+
+    & .form__question textarea {
+        border-radius: 10px;
+        height: 100px;
+        margin-top: 6px;
+        width: 250px;
+    }
+
+    & .form__submit input {
+        font-size: 22px;
+        border-radius: 40px;
+        padding: 18px 28px;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+
+    & .form__submit input:hover {
+        box-shadow: $color-primary 0 0 22px 6px;
+    }
+}
+
+.message {
+    color: $color-white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center
+}
